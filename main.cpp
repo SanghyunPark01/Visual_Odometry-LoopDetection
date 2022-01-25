@@ -332,7 +332,7 @@ void loadFeatures(vector<vector<cv::Mat > > &features)
   features.clear();
   features.reserve(NIMAGES);
 
-  cv::Ptr<cv::ORB> orb = cv::ORB::create(2000);
+  cv::Ptr<cv::ORB> orb = cv::ORB::create(4000);
 
   cout << "Extracting ORB features..." << endl;
   for(int i = 0; i < NIMAGES; ++i)
@@ -397,7 +397,7 @@ void testVocCreation(const vector<vector<cv::Mat > > &features)
       double score = voc.score(v1, v2);
       
       if (score>=0.7){
-        if((i-j)>50){
+        if((i-j)>100){
           cout << "Image " << i << " vs Image " << j << ": " << score << endl;
           lcd.push_back(i);
         }
