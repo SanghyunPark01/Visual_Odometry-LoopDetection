@@ -18,7 +18,7 @@ I use [mez/monocular-visual-odometry](https://github.com/mez/monocular-visual-od
 > - [KITTI dataset visual Odometry](http://www.cvlibs.net/datasets/kitti/eval_odometry.php)(gray scale(22GB), calibration files(1MB), truth poses(4MB), devkit(1MB))  
 > - OpenCV  
 > - DBoW2  
-> - edit code (KITTI dataset download location)
+> - edit code (KITTI dataset download location)(P0 camera, 00 sequence)
   
 
 **Takes a lot of time to Test (about 40m)**
