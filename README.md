@@ -36,6 +36,10 @@ make
 
 
 ## 🛠️ Result  
+* Green : truth  
+* Red : visual odometry  
+* Blue : loop detection
+
 <p align="center"><img src="https://user-images.githubusercontent.com/77342519/151089229-6a991e59-eb6a-4d30-9fda-866f37d37775.png" width="80%" height="70%"></p>
 
 <p align="center"><img src="https://user-images.githubusercontent.com/77342519/151088331-694d7c2f-9dd0-4f4d-aff7-0fad602c3698.png" width="80%" height="70%"></p>
